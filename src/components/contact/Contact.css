@@ -1,0 +1,166 @@
+.c {
+  height: 100vh;
+  display: flex;
+  background-color: var(--primary);
+  color: #f1f3f9;
+  padding-left: 30px;
+}
+
+.c-left {
+  flex: 1;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.c-head > h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.c-head > h2 {
+  font-weight: 300;
+}
+
+.c-info {
+  width: 100%;
+}
+
+.c-info-item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.c-info-icon {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f3f9;
+}
+
+.c-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.c-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c-form-label {
+  font-size: 16px;
+}
+
+input {
+  width: 90%;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid var(--accent);
+  margin-bottom: 20px;
+  margin-right: 10px;
+  background-color: var(--primary);
+  color: #f1f3f9;
+  outline: none;
+  font-size: 18px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #99ade3;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #99ade3;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #99ade3;
+}
+
+textarea {
+  background-color: var(--primary);
+  border: none;
+  border-bottom: 2px solid var(--accent);
+  margin-bottom: 20px;
+  color: #f1f3f9;
+  outline: none;
+  font-size: 18px;
+  margin-top: 20px;
+  width: 90%;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: 0.2s ease-in-out;
+  background-color: var(--accent);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:focus {
+  background-color: var(--primary);
+  opacity: 0.5;
+}
+
+.bi-check-lg {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .c {
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+  }
+  .c-head > h1 {
+    font-size: 40px;
+  }
+  .c-head > h2 {
+    font-size: 30px;
+  }
+  .c-input-wrapper {
+    flex-direction: column;
+  }
+  .c-left {
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+  }
+  .c-right {
+    margin: 20px;
+    margin-top: 30px;
+  }
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+.project {
+  width: 30%;
+  height: 32vh;
+  margin: 20px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.p-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.p-text {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: #064663;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+    width: 100%;
+  }
+}
