@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6d9bc019.css",
+    "main.js": "/portfolio/static/js/main.8f861abb.js",
+    "static/media/subham.png": "/portfolio/static/media/subham.3b6d0a86a8a78b448f9b.png",
+    "static/media/blockchain.jpg": "/portfolio/static/media/blockchain.c95611a09fd13fdb2072.jpg",
+    "static/media/chatapp.jpg": "/portfolio/static/media/chatapp.1c64a0f6e56429a96b51.jpg",
+    "static/media/TuringMachine.jpg": "/portfolio/static/media/TuringMachine.af1d06c6d1113df9221a.jpg",
+    "static/media/springauth.jpg": "/portfolio/static/media/springauth.4d923d483330f4528998.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.6d9bc019.css.map": "/portfolio/static/css/main.6d9bc019.css.map",
+    "main.8f861abb.js.map": "/portfolio/static/js/main.8f861abb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d9bc019.css",
+    "static/js/main.8f861abb.js"
+  ]
+}
